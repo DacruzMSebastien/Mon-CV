@@ -1,0 +1,106 @@
+body {
+  display: grid;
+  grid-template-columns: 300px 700px;
+  grid-template-rows: 1400px 500px;
+  grid-template-areas: "a b" "c d";
+}
+nav {
+  grid-column: 1; grid-row: 1;
+}
+section {
+  grid-column: 2; grid-row: 2;
+}
+
+
+
+
+
+/*décoration*/
+
+* {box-sizing: border-box}
+body {
+	margin: 20px;
+	background: #fff;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.2em;
+}
+.container {
+	background: beige;
+	border: 3px dotted orange;
+	margin-bottom: 2em;
+}
+div {
+	padding: 10px;
+	color: #000;
+}
+
+nav {
+	background: #7F0000;
+  color: #fff;
+  grid-area: a;
+  justify-self: center;
+}
+
+section {
+	background: #FFD95F;
+  color: #fff;
+  grid-area: b;
+  justify-self: center;
+
+}
+
+div:nth-of-type(3) {
+	background: #FFD95F;
+}
+
+
+h1 {
+	margin: 0 0 1em;
+	color: #345;
+	text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif;
+}
+
+.sec-droite{
+  margin-left: 200px;
+
+}
+
+.sec-gauche{
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.info{
+  float: left;
+}
+
+.photo{
+  float: right;
+}
+
+.section{
+  text-align: justify;
+}
+
+strong{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 28px;
+  color: #7F0000;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+}
+
+.titre{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.duree{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
